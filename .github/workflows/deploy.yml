@@ -11,8 +11,13 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
+    # Force npm to ignore peer-dep conflicts
+    env:
+      NPM_CONFIG_LEGACY_PEER_DEPS: true
+
     steps:
-      - uses: actions/checkout@v4     
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -20,9 +25,9 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm install -- legacy-peer-deps
+        run: npm install
 
-      - name: Build static site
+      - name: Build and export static site
         run: npm run build
 
       - name: Deploy to GitHub Pages
