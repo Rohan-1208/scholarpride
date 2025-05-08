@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // <-- this is the important part
+  output: 'export',        // static-export mode
+  trailingSlash: true,     // generate folder-based pages with index.html
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -10,6 +11,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;
