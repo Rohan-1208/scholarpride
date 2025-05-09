@@ -127,8 +127,8 @@ export default function SchoolOverview() {
               <Users className="h-5 w-5" />
             </div>
             <div>
-              <h4 className="text-sm font-medium text-muted-foreground">School Strength</h4>
-              <p className="text-lg font-semibold">500 Students</p>
+              <h4 className="text-sm font-medium text-muted-foreground">Our Student Body</h4>
+              <p className="text-lg font-semibold">500+ learners</p>
             </div>
           </div>
 
