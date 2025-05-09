@@ -26,7 +26,7 @@ export default function Header() {
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Scholar's Pride School</span>
             <div className="flex items-center gap-2">
-              <div className="relative h-12 w-12 overflow-hidden sm:h-16 sm:w-16">
+              <div className="relative h-17 w-17 overflow-hidden sm:h-16 sm:w-16">
                 <Image
                   src="/images/scholars-pride-logo.png"
                   alt="Scholar's Pride Logo"
