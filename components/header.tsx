@@ -25,8 +25,8 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Scholar's Pride School</span>
-            <div className="flex items-center gap-2">
-              <div className="relative h-17 w-17 overflow-hidden sm:h-16 sm:w-16">
+            <div className="flex items-center gap-3">
+              <div className="relative h-16 w-16 overflow-hidden sm:h-20 sm:w-20">
                 <Image
                   src="/images/scholars-pride-logo.png"
                   alt="Scholar's Pride Logo"
@@ -35,8 +35,8 @@ export default function Header() {
                 />
               </div>
               <div className="hidden sm:block">
-                <p className="text-lg font-bold text-primary">Scholar's Pride</p>
-                <p className="text-xs text-muted-foreground">CBSE Affiliated School</p>
+                <p className="text-xl font-bold text-primary">Scholar's Pride</p>
+                <p className="text-sm text-muted-foreground">CBSE Affiliated School</p>
               </div>
             </div>
           </Link>
@@ -71,7 +71,7 @@ export default function Header() {
                 <Link href="/" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
                   <span className="sr-only">Scholar's Pride School</span>
                   <div className="flex items-center gap-2">
-                    <div className="relative h-10 w-10 overflow-hidden">
+                    <div className="relative h-14 w-14 overflow-hidden">
                       <Image
                         src="/images/scholars-pride-logo.png"
                         alt="Scholar's Pride Logo"
