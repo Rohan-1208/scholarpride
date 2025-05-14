@@ -56,13 +56,7 @@ export default function AboutPage() {
         <div className="grid gap-8 md:grid-cols-2">
           <div>
             <p className="mb-4 text-muted-foreground">
-              Scholar's Pride School was established in 2010 with a vision to provide quality education that nurtures
-              both academic excellence and character development. Since our founding, we have been committed to creating
-              a learning environment that inspires students to reach their full potential.
-            </p>
-            <p className="text-muted-foreground">
-              Our journey began with a small campus and a big dream. Today, we stand as a premier educational
-              institution in Dhuri, recognized for our innovative teaching methods and holistic approach to education.
+            Scholar's Pride school is a Co-Educational Sr. Sec. CBSE Affiliated day-boarding School that provides holistic growth with state-of-the-art child-centered and child-friendly facilities. Scholar's Pride was established in the year 2010 and is situated in the heart of Dhuri Town. This school is initiative of the "P.L. Bansal Memorial Educational Society" and Inaugurated by Hon'ble Mr. Justice Rajesh Bindal (Punjab & Haryana High Court, Chandigarh) & S. H.S. Sohi I.R.S (Commissioner of Income Tax). The school is founded & managed by Advocate B.B. Bansal & Er. and Author Raman Bansal with the mission to empower all its pupils to be problem solvers, users of technology, effective communicators and lifelong learners in a rapidly changing global community by providing challenging experience in a safe, caring, supportive and co-operative and to prepare a winning generation for the 21st Century. Scholar's pride is successfully progressing every year by providing high quality education to its students.
             </p>
           </div>
           <div className="relative h-64 overflow-hidden rounded-lg md:h-auto">
@@ -383,6 +377,31 @@ export default function AboutPage() {
             <div className="mt-4">
               <p className="font-semibold">Mr. Brij Bhushan Bansal</p>
               <p className="text-sm text-muted-foreground">Chairman, Scholar's Pride School</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-16 rounded-xl bg-muted/50 p-8">
+        <h2 className="mb-8 text-center text-2xl font-semibold text-primary">Message from the Director</h2>
+        <div className="grid gap-8 md:grid-cols-[1fr_3fr]">
+          <div className="relative h-64 overflow-hidden rounded-lg md:h-auto">
+            <Image src="/images/director.jpg" alt="Chairman" fill className="object-cover" />
+          </div>
+          <div>
+            <blockquote className="border-l-4 border-primary pl-4">
+              <p className="mb-4 italic text-muted-foreground">
+              "Education today goes beyond textbooks — it's about inspiring young minds to think critically, adapt confidently, and grow with integrity. We are committed to nurturing scholars who are not only academically sound but also socially aware and globally competent. </p>
+              <p className="mb-4 italic text-muted-foreground">
+              By blending technology with traditional values, and offering a supportive, inclusive environment, we guide each child to explore their strengths and shape their future with purpose.
+               </p>
+              <p className="italic text-muted-foreground">
+              With dedication from our teachers and support from parents, we believe every scholar can rise to meet the challenges of tomorrow."
+              </p>
+            </blockquote>
+            <div className="mt-4">
+              <p className="font-semibold">Mr. Raman Bansal</p>
+              <p className="text-sm text-muted-foreground">Director, Scholar's Pride School</p>
             </div>
           </div>
         </div>
