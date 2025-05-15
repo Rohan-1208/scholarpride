@@ -63,30 +63,47 @@ export default function AboutPage() {
             <Image src="/images/kid.jpeg" alt="School Building" fill className="object-cover" />
           </div>
         </div>
+        </section>
+        <section className="mt-12 flex flex-col md:flex-row items-start gap-8">
+  {/* Timeline */}
+  <div className="flex-1">
+    <Timeline>
+      <TimelineItem
+        year="2010"
+        title="Foundation"
+        description="Scholar's Pride School was established with a vision to transform education."
+      />
+      <TimelineItem
+        year="2015"
+        title="CBSE Affiliation"
+        description="Received CBSE affiliation (Code No: 1630732)."
+      />
+      <TimelineItem
+        year="2017"
+        title="Brainfeed Excellence Award"
+        description="Recognized for educational excellence and innovative teaching methodologies."
+      />
+      <TimelineItem
+        year="2020"
+        title="Further Growth"
+        description="Continued commitment to holistic student development."
+      />
+    </Timeline>
+  </div>
 
-        <Timeline className="mt-12">
-          <TimelineItem
-            year="2010"
-            title="Foundation"
-            description="Scholar's Pride School was established with a vision to transform education."
-          />
-          <TimelineItem
-            year="2015"
-            title="CBSE Affiliation"
-            description="Received CBSE affiliation (Code No: 1630732)."
-          />
-          <TimelineItem
-            year="2018"
-            title="Campus Expansion"
-            description="Expanded our facilities to include modern laboratories and sports infrastructure."
-          />
-          <TimelineItem
-            year="2022"
-            title="Excellence Award"
-            description="Recognized for educational excellence and innovative teaching methodologies."
-          />
-        </Timeline>
-      </section>
+  {/* Bigger Image */}
+  <div className="flex-shrink-0">
+    <div className="relative h-[28rem] w-[28rem] md:h-[32rem] md:w-[32rem]">
+      <Image
+        src="/images/excellence_award.jpeg"
+        alt="Excellence Award"
+        fill
+        className="object-contain rounded-lg shadow-xl"
+      />
+    </div>
+  </div>
+</section>
+
 
       {/* Mission and Vision */}
       <section className="mb-16 rounded-xl bg-muted/50 p-8">
@@ -391,16 +408,20 @@ export default function AboutPage() {
           <div>
             <blockquote className="border-l-4 border-primary pl-4">
               <p className="mb-4 italic text-muted-foreground">
-              "Education today goes beyond textbooks — it's about inspiring young minds to think critically, adapt confidently, and grow with integrity. We are committed to nurturing scholars who are not only academically sound but also socially aware and globally competent. </p>
+              "शिक्षा जीवन की परिस्थितियों का सामना करने की योग्यता का नाम है।"
+                </p>
+                <p className="mb-4 italic text-muted-foreground">
+              "Education is the ability to face the circumstances of life."
+              </p>
               <p className="mb-4 italic text-muted-foreground">
-              By blending technology with traditional values, and offering a supportive, inclusive environment, we guide each child to explore their strengths and shape their future with purpose.
-               </p>
-              <p className="italic text-muted-foreground">
-              With dedication from our teachers and support from parents, we believe every scholar can rise to meet the challenges of tomorrow."
+              At our school, we believe that real education is about more than just books. It’s about learning how to think, how to ask questions, and how to find solutions. These are the skills that help us grow—not just in school, but in life.
+              <br/>
+              Whether it was 15 years ago or 15 years from now, the core of education remains the same. Technology will keep advancing, but one thing never changes: if you can solve problems and think independently, you will always do well.
+              Our goal is to help every student build these strong foundations for a bright and successful future.
               </p>
             </blockquote>
             <div className="mt-4">
-              <p className="font-semibold">Mr. Raman Bansal</p>
+              <p className="font-semibold">Er. Raman Bansal</p>
               <p className="text-sm text-muted-foreground">Director, Scholar's Pride School</p>
             </div>
           </div>

@@ -9,7 +9,7 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 const galleryData = {
   "School Events": [
     { id: 1, src: "/images/certificate.png", alt: "Annual Certificate Distribution" },
-    { id: 2, src: "/images/sandbag.png", alt: "Sandbag Race" },
+    { id: 2, src: "/images/karate.jpeg", alt: "Karate Competition" },
     { id: 3, src: "/images/rally.png", alt: "Eco Club Rally" },
     { id: 4, src: "/images/womens_day.jpg", alt: "Women's Day" },
   ],
@@ -20,8 +20,8 @@ const galleryData = {
     { id: 8, src: "/images/transport.jpg", alt: "Transport" },
   ],
   "Student Activities": [
-    { id: 9, src: "/images/student_activity.jpeg", alt: "" },
-    { id: 10, src: "/images/debate.png", alt: "Debate Competition" },
+    { id: 9, src: "/images/fancydress.jpeg", alt: "Fancy dress competition" },
+    { id: 10, src: "/images/bday.jpeg", alt: "Monthly Birthday Party" },
     { id: 11, src: "/images/indoor_game.jpg", alt: "Indoor Games" },
     { id: 12, src: "/images/music.png", alt: "Music Class" },
   ],
@@ -37,11 +37,11 @@ const galleryData = {
     { id: 19, src: "/images/hurdle.png", alt: "Athletics Meet" },
     { id: 20, src: "/images/yoga.png", alt: "Yoga" },
   ],
-  "Cultural Performances": [
-    { id: 21, src: "/images/dance.png", alt: "Dance Practise" },
-    { id: 22, src: "/images/delex.jpg", alt: "Foreign Exchange" },
-    { id: 23, src: "/images/music", alt: "Music Concert" },
-    { id: 24, src: "/images/dance.jpg", alt: "Folk Dance" },
+  "Global exposure": [
+    { id: 21, src: "/images/painting.jpeg", alt: "Russian Delegation" },
+    { id: 22, src: "/images/delex.jpg", alt: "Australian Visit" },
+    { id: 23, src: "/images/korean_centre.jpeg", alt: "Korean Cultural Exchange" },
+    { id: 24, src: "/images/russian_centre.jpg", alt: "Students performing at Russian Centre" },
   ],
 }
 

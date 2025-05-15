@@ -74,7 +74,7 @@ export default function ContactPage() {
             {/* This would be replaced with an actual Google Maps embed */}
             <div className="relative h-[400px] w-full bg-muted">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.996007155966!2d75.86776797474516!3d30.379471274756607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39105b6c0f63f243%3A0x876dc41e8393296b!2sScholars%20Pride%20School%20Dhuri!5e0!3m2!1sen!2sin!4v1747253659293!5m2!1sen!2sin" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.996007155966!2d75.86776797474516!3d30.379471274756607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39105b6c0f63f243%3A0x876dc41e8393296b!2sScholars%20Pride%20School%20Dhuri!5e0!3m2!1sen!2sin!4v1747253659293!5m2!1sen!2sin"  
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
