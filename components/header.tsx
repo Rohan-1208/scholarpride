@@ -14,6 +14,7 @@ const navigation = [
   { name: "Gallery", href: "/gallery" },
   { name: "Admissions", href: "/admissions" },
   { name: "Contact", href: "/contact" },
+  { name: "Documents", href: "/cbse-disclosure" },
 ]
 
 export default function Header() {
