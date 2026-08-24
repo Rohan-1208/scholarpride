@@ -13,8 +13,8 @@ export default function CBSEDisclosurePage() {
           <table className="min-w-full table-auto border border-gray-300">
             <tbody className="text-muted-foreground">
               <DisclosureRow label="Affiliation Number" value="1630732" />
-              <DisclosureRow label="School Code" value="20710" />
-              <DisclosureRow label="Name of Principal" value="Mr. Ashok Thakur" />
+              <DisclosureRow label="School Code" value="20712" />
+              <DisclosureRow label="Name of Principal" value="Mr. Suneet Kumar" />
               <DisclosureRow label="Contact Numbers" value="70871-35842, 98144-00452" />
               <DisclosureRow label="Email" value="info@scholarspridedhuri.com" />
               <DisclosureRow label="Academic Session" value="April to March" />
