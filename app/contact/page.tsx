@@ -92,7 +92,8 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-medium">Address</h3>
                 <p className="text-muted-foreground">
-                  Scholar's Pride School, Opp. Panchvati Mandir, Bagrian Road, DHURI
+                  Scholar&apos;s Pride School, Bagrian Road, Near Panchvati Mandir, Dhuri,
+                  Sangrur, Punjab – 148024
                 </p>
               </div>
             </div>

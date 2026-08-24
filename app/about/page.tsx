@@ -29,16 +29,34 @@ export default function AboutPage() {
                 <p className="text-muted-foreground">1630732</p>
               </div>
               <div className="rounded-lg bg-muted/50 p-4">
+                <p className="font-medium">School Code:</p>
+                <p className="text-muted-foreground">20712</p>
+              </div>
+              <div className="rounded-lg bg-muted/50 p-4">
                 <p className="font-medium">Established:</p>
-                <p className="text-muted-foreground">2010</p>
+                <p className="text-muted-foreground">2009 (Opened 2010)</p>
+              </div>
+              <div className="rounded-lg bg-muted/50 p-4">
+                <p className="font-medium">Status:</p>
+                <p className="text-muted-foreground">Senior Secondary</p>
               </div>
               <div className="rounded-lg bg-muted/50 p-4">
                 <p className="font-medium">School Type:</p>
-                <p className="text-muted-foreground">Co-Ed Day School</p>
+                <p className="text-muted-foreground">Independent (Co-Ed Day School)</p>
               </div>
               <div className="rounded-lg bg-muted/50 p-4">
                 <p className="font-medium">Classes:</p>
                 <p className="text-muted-foreground">Nursery to XII</p>
+              </div>
+              <div className="rounded-lg bg-muted/50 p-4 col-span-2">
+                <p className="font-medium">Address:</p>
+                <p className="text-muted-foreground">
+                  Bagrian Road, Near Panchvati Mandir, Dhuri, Sangrur, Punjab – 148024
+                </p>
+              </div>
+              <div className="rounded-lg bg-muted/50 p-4 col-span-2">
+                <p className="font-medium">Affiliation Period:</p>
+                <p className="text-muted-foreground">01/04/2027 to 31/03/2032</p>
               </div>
             </div>
           </div>

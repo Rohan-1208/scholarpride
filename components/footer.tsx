@@ -33,6 +33,7 @@ export default function Footer() {
               and character development.
             </p>
             <p className="mb-2 text-sm font-medium">CBSE Affiliation No: 1630732</p>
+            <p className="mb-2 text-sm font-medium">School Code: 20712</p>
             <div className="flex gap-4">
               <Link href="#" className="text-muted-foreground hover:text-primary">
                 <Facebook className="h-5 w-5" />
@@ -101,7 +102,8 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-5 w-5 text-primary" />
                 <span className="text-muted-foreground">
-                  Scholar's Pride School, Opp. Panchvati Mandir, Bagrian Road, DHURI
+                  Scholar&apos;s Pride School, Bagrian Road, Near Panchvati Mandir, Dhuri,
+                  Sangrur, Punjab – 148024
                 </span>
               </li>
               <li className="flex items-start gap-3">
