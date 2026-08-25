@@ -80,58 +80,11 @@ export default function CBSEDisclosurePage() {
               title="Infrastructure and Facilities"
               file="/document/Scholars_Pride_Infrastructure_Details.pdf"
             />
-          </tbody>
-        </table>
-      </div>
-
-      {/* C. Result and Academics */}
-      <h2 className="text-2xl font-semibold mb-4 text-primary">C. Result and Academics</h2>
-
-      <h3 className="text-xl font-semibold mb-3 text-primary">Annual Academic Calendar (Session 2026–27)</h3>
-      <p className="mb-4 text-sm text-muted-foreground">
-        Academic session runs from April to March. Exact examination dates are notified separately by the school.
-      </p>
-      <div className="overflow-x-auto mb-10">
-        <table className="min-w-full table-auto border border-gray-300">
-          <thead>
-            <tr className="bg-muted text-left">
-              <th className="border px-4 py-2 w-1/4">Month / Period</th>
-              <th className="border px-4 py-2">Activity</th>
-            </tr>
-          </thead>
-          <tbody className="text-muted-foreground">
-            {academicCalendar.map((row) => (
-              <tr key={row.period}>
-                <td className="border px-4 py-2 font-medium">{row.period}</td>
-                <td className="border px-4 py-2">{row.activity}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <h3 className="text-xl font-semibold mb-3 text-primary">List of School Management Committee (SMC)</h3>
-      <div className="overflow-x-auto mb-12">
-        <table className="min-w-full table-auto border border-gray-300">
-          <thead>
-            <tr className="bg-muted text-left">
-              <th className="border px-4 py-2">S.No.</th>
-              <th className="border px-4 py-2">Name</th>
-              <th className="border px-4 py-2">Address</th>
-              <th className="border px-4 py-2">Occupation</th>
-              <th className="border px-4 py-2">Designation</th>
-            </tr>
-          </thead>
-          <tbody className="text-muted-foreground">
-            {managementCommittee.map((member, index) => (
-              <tr key={member.name}>
-                <td className="border px-4 py-2">{index + 1}</td>
-                <td className="border px-4 py-2">{member.name}</td>
-                <td className="border px-4 py-2">{member.address}</td>
-                <td className="border px-4 py-2">{member.occupation}</td>
-                <td className="border px-4 py-2">{member.designation}</td>
-              </tr>
-            ))}
+            <DisclosureDoc
+              title="List of School Management Committee"
+              file="/document/school_management_committee.pdf"
+            />
+            <DisclosureDoc title="Annual Academic Calendar" file="/document/academic_calendar.pdf" />
           </tbody>
         </table>
       </div>
@@ -157,96 +110,6 @@ export default function CBSEDisclosurePage() {
     </div>
   )
 }
-
-const academicCalendar = [
-  { period: "April 2026", activity: "Commencement of new academic session; orientation and syllabus distribution" },
-  { period: "May 2026", activity: "Unit / periodic tests; co-curricular activities" },
-  { period: "June 2026", activity: "Summer vacation" },
-  { period: "July 2026", activity: "School reopens; regular classes and assessments continue" },
-  { period: "August 2026", activity: "Independence Day celebration; mid-term / unit assessments" },
-  { period: "September 2026", activity: "Half-yearly examinations; Teachers' Day and related activities" },
-  { period: "October 2026", activity: "Autumn / festival break as notified; post-exam remedial classes" },
-  { period: "November 2026", activity: "Periodic assessments; sports and cultural activities" },
-  { period: "December 2026", activity: "Pre-board / term assessments; winter vacation begins" },
-  { period: "January 2027", activity: "School reopens; revision and pre-board examinations (Classes X & XII)" },
-  { period: "February 2027", activity: "CBSE Board examinations (as per CBSE schedule); annual exam preparation" },
-  { period: "March 2027", activity: "Annual examinations; result preparation; session closes" },
-]
-
-const managementCommittee = [
-  {
-    name: "Sh. B.B. Bansal",
-    address: "#10-A/221, Bus Stand Road, Dhuri",
-    occupation: "Advocate",
-    designation: "Chairman",
-  },
-  {
-    name: "Sh. Yogesh Bansal",
-    address: "Opp. S.D. School, Dhuri",
-    occupation: "Business",
-    designation: "Vice Chairman",
-  },
-  {
-    name: "Sh. Raman Bansal",
-    address: "#10-A/221, Bus Stand Road, Dhuri",
-    occupation: "Engineer",
-    designation: "Secretary",
-  },
-  {
-    name: "Smt. Usha Rani",
-    address: "#10-A/221, Bus Stand Road, Dhuri",
-    occupation: "Business",
-    designation: "Cashier",
-  },
-  {
-    name: "Sh. Rakesh Bansal",
-    address: "Opp. S.D. School, Dhuri",
-    occupation: "Business",
-    designation: "Member",
-  },
-  {
-    name: "Sh. Aman Bansal",
-    address: "#10-A/221, Bus Stand Road, Dhuri",
-    occupation: "Advocate",
-    designation: "Member",
-  },
-  {
-    name: "Smt. Manisha Bansal",
-    address: "#10-A/221, Bus Stand Road, Dhuri",
-    occupation: "Business",
-    designation: "Member",
-  },
-  {
-    name: "Smt. Anjali Bansal",
-    address: "#10-A/221, Bus Stand Road, Dhuri",
-    occupation: "Business",
-    designation: "Member",
-  },
-  {
-    name: "Sh. Vinod Kumar Garg",
-    address: "Brij Bhawan, A.P. Enclave, Dhuri",
-    occupation: "Business",
-    designation: "Member",
-  },
-  {
-    name: "Smt. Suresh Kumari",
-    address: "Brij Bhawan, A.P. Enclave, Dhuri",
-    occupation: "Business",
-    designation: "Member",
-  },
-  {
-    name: "Sh. Vijay Kumar Goyal",
-    address: "Yash Chaudhary Market, Dhuri",
-    occupation: "Business",
-    designation: "Member",
-  },
-  {
-    name: "Sh. Ravi Nandan Goyal",
-    address: "A.P. Enclave, Sangrur Road, Dhuri",
-    occupation: "Business",
-    designation: "Member",
-  },
-]
 
 function DisclosureRow({ label, value }: { label: string; value: string }) {
   return (
